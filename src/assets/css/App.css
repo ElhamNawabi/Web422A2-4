@@ -1,0 +1,32 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body
+{
+  background-color: white;
+}
+
+header
+{
+  background-color: rgb(199, 91, 91);
+}
+
+header img
+{
+  width: 12%;
+}
+
+header li
+{
+    display: inline-block;
+    padding:1px 200px;
+}
+
+header ul
+{
+    list-style-type: none;
+}
