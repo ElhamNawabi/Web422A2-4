@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from "./Header";
 import Hero from "./Hero";
+import ResortList from "./ResortList";
 import '../assets/css/App.css';
 
 function App ()  {
@@ -10,6 +11,7 @@ function App ()  {
       <Header/>
       <main>
         <Hero/>
+        <ResortList/>
       </main>
     </div>
   );
