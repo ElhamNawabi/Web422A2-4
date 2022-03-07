@@ -1,19 +1,20 @@
 import React from 'react'
-import Header from "./Header";
-import Hero from "./Hero";
-import ResortList from "./ResortList";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import HomePage from '../pages/HomePage';
 import '../assets/css/App.css';
 
 function App ()  {
 
   return (
-    <div className="grid grid-row-3" id="main-container">
-      <Header/>
-      <main>
-        <Hero/>
-        <ResortList/>
-      </main>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path ="/" element={<HomePage />} /> 
+      </Routes>
+    </BrowserRouter>
   );
 
 }

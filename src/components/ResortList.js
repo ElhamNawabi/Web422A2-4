@@ -5,8 +5,8 @@ function ResortList() {
 
     //state
     const[resorts, setResorts] = useState([{
-        title: "",
-        imgSrc: null
+        propertyType: "",
+        photoUrl: null
     }]);
 
     useEffect(() => {
@@ -28,7 +28,7 @@ function ResortList() {
 
             <div className ="grid grid-gap-1 grid-row-gap-2 grid-col-4">
                 {resorts.map(resort=> (
-                    <PropertyTypes title={resort.title} imgSrc={resort.imgSrc} />
+                    <PropertyTypes propertyType={resort.propertyType} photoUrl={resort.photoUrl} />
                 ))}
             </div>
         </div>

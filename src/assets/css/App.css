@@ -55,4 +55,19 @@ header ul
     display: grid;
 }
 
+#section-resort-list
+{
+    margin-bottom: 32px;
+}
+
+
+#section-resort-list h1 , 
+#about-section h1 , 
+#login-section h1 , 
+#register-section h1
+{
+    margin:16px 0;
+
+}
+
 

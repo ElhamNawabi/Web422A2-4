@@ -1,9 +1,18 @@
-import React,{useState,useEffect} from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function PropertyTypes() {
+function PropertyTypes({propertyType, photoUrl}) {
   return (
-    <div>PropertyTypes</div>
-  )
-}
+    <div className="resort-card">
+      <Link to = {`/property/type`}>
+        <img src={photoUrl} alt=""/>
+      </Link>
+
+      <div className="resortContent">
+        <h3>{propertyType}</h3>
+      </div>
+    </div>
+  );
+};
 
 export default PropertyTypes
