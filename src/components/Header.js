@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import logo from '../assets/images/kamehouse.png';
 import {
     Menu,
@@ -29,7 +30,9 @@ function Header  () {
                       </li>
 
                       <li>
+                      <Link to = {`/resorts`}>
                       <button className="header-search-button" type="button"> Vacation Properties</button>
+                      </Link>
                       </li>
 
                       <li>
@@ -37,6 +40,23 @@ function Header  () {
                         <MenuItem>Sign up</MenuItem>
                         <MenuItem>Login</MenuItem>
                         
+                      </Menu>
+                      </li>
+
+                      <li>
+                      <Menu menuButton={<MenuButton>Resort Types</MenuButton>} transition>
+                        <Link to = {`/condos`}>
+                        <MenuItem>Condos</MenuItem>
+                        </Link>
+                        <Link to = {`/villas`}>
+                        <MenuItem>Villas</MenuItem>
+                        </Link>
+                        <Link to = {`/beach-houses`}>
+                        <MenuItem>Beach Houses</MenuItem>
+                        </Link>
+                        <Link to = {`/hotel`}>
+                        <MenuItem>Hotel</MenuItem>
+                        </Link>
                       </Menu>
                       </li>
                   </ul>
