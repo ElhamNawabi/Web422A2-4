@@ -1,14 +1,19 @@
 import React from 'react'
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import ResortList from "../components/ResortList";
+import PropertyTypes from "../components/PropertyTypes";
+import BestSeller from "../components/BestSeller";
+import Footer from "../components/Footer";
+
 function HomePage(){
   return (
     <div className="grid grid-row-3" id="main-container">
       <Header/>
       <main>
         <Hero/>
-        <ResortList/>
+        <PropertyTypes />
+        <BestSeller />
+        <Footer />
       </main>
     </div>
   )

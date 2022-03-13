@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import HomePage from '../pages/HomePage';
 import ResortListingPage from '../pages/ResortListingPage';
+import CondoPage from '../pages/CondoPage';
 import '../assets/css/App.css';
 
 function App ()  {
@@ -15,7 +16,7 @@ function App ()  {
       <Routes>
         <Route path ="/" element={<HomePage />} />
         <Route path="resorts" element={<ResortListingPage />} />
-        <Route path=""
+        <Route path="condos" element={<CondoPage />} />
       </Routes>
     </BrowserRouter>
   );
