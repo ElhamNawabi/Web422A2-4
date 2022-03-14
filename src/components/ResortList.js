@@ -46,7 +46,7 @@ useEffect(() => {
                <h3>{resListing.location}</h3>
                <p>${resListing.rentalPrice} per night</p>
                <h5>{resListing.propertyType}</h5>
-               <h5>{resListing.bestSeller}</h5>
+               <hr></hr>
                 
               </Link>
             

@@ -8,14 +8,14 @@ function PropertyTypes() {
   const setPicture = (photo) => {
     switch (photo) {
     case 'Condo':
-      return "https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg";
+      return "https://condonow.com/BIG-King-Toronto-Condos/images/BIG-King-Toronto-Condos-rendering1-full.jpg";
       
     case 'Villa':
-      return "https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg";
+      return "https://images.squarespace-cdn.com/content/v1/585562bcbe659442d503893f/c3b765c0-45e3-46b3-9ff9-b4101fb30674/01.+Exotik+Villas+Bali+-+Aloui.jpg";
     case 'Beach-house':
-      return "https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg";
+      return "https://images.trvl-media.com/hotels/37000000/36280000/36275400/36275335/468a8b77.jpg?impolicy=fcrop&w=670&h=385&p=1&q=medium";
     case 'Hotel':
-      return "https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg";
+      return "https://www.fairmont.com/assets/0/104/1785/1790/5059/5067/ba5c8a82-6dd5-4635-8ac8-f29dc63c9e9a.jpg";
       
     default:
       return null
