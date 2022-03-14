@@ -21,10 +21,10 @@ function App ()  {
       <Routes>
         <Route path ="/" element={<HomePage />} />
         <Route path="resorts" element={<ResortListingPage />} />
-        <Route path="condos" element={<CondoPage />} />
-        <Route path="villas" element={<VillaPage />} />
-        <Route path="beach-houses" element={<BeachHousePage />} />
-        <Route path="hotels" element={<HotelPage />} />
+        <Route path="Condo" element={<CondoPage />} />
+        <Route path="Villa" element={<VillaPage />} />
+        <Route path="Beach-house" element={<BeachHousePage />} />
+        <Route path="Hotel" element={<HotelPage />} />
         <Route path="signup" element={<SignUpPage />} />
         <Route path="login" element={<LoginPage />} />
       </Routes>
