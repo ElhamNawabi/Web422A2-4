@@ -37,8 +37,12 @@ function Header  () {
 
                       <li>
                       <Menu menuButton={<MenuButton>Sign Up or Login</MenuButton>} transition>
+                        <Link to = {`/signup`}>
                         <MenuItem>Sign up</MenuItem>
+                        </Link>
+                        <Link to = {`/login`}>
                         <MenuItem>Login</MenuItem>
+                        </Link>
                         
                       </Menu>
                       </li>
@@ -54,8 +58,8 @@ function Header  () {
                         <Link to = {`/beach-houses`}>
                         <MenuItem>Beach Houses</MenuItem>
                         </Link>
-                        <Link to = {`/hotel`}>
-                        <MenuItem>Hotel</MenuItem>
+                        <Link to = {`/hotels`}>
+                        <MenuItem>Hotels</MenuItem>
                         </Link>
                       </Menu>
                       </li>
