@@ -1,6 +1,8 @@
 ## Running the Site ##
  
-Go to this link: https://condescending-mclean-1327f5.netlify.app/
+Go to this link: https://condescending-mclean-1327f5.netlify.app/ (Front End with Back-end working)
+
+Back-end link: https://floating-beyond-88260.herokuapp.com
 
 ## Some issues ##
 
