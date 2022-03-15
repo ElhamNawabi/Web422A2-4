@@ -13,7 +13,7 @@ function BestSeller() {
     }]);
 
     useEffect(() => {
-        const URL = "http://localhost:8080/property/bestseller/true";
+        const URL = `${process.env.REACT_APP_BACK_END_API_DOMAIN}/property/bestseller/true`;
 
         fetch(URL)
     .then(response=>response.json())
