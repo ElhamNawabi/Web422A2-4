@@ -29,7 +29,7 @@ useEffect(() => {
 
   return (
     <section id="section-resortListing-type">
-    <div className="container">
+    <div className="containerResort">
 
       <h1>All Resort Listing</h1>
 
@@ -37,11 +37,12 @@ useEffect(() => {
       {listing?.map((resListing) => (
            
 
-            <Link to ={`/resort/${resListing._id}`}>
+            <Link to ={`/resorts/${resListing._id}`}>
             <h3>{resListing.title}</h3>
 
+            <div className="resortPhoto">
             <img src={resListing.photoUrl}   alt="poo"></img>
-            
+            </div>
                
                <h3>{resListing.location}</h3>
                <p>${resListing.rentalPrice} per night</p>
