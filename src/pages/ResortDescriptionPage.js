@@ -26,7 +26,7 @@ function ResortDescriptionPage() {
 
  
 
-    const URL = `http://localhost:8080/property/id/${_id}`
+    const URL = `${process.env.REACT_APP_BACK_END_API_DOMAIN}/property/id/${_id}`
     //MAKE AN AJAX request
 
     fetch(URL)

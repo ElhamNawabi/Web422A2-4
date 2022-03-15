@@ -14,7 +14,7 @@ function Villa() {
     }]);
 
     useEffect(() => {
-        const URL = "http://localhost:8080/property/type/Villa";
+        const URL = `${process.env.REACT_APP_BACK_END_API_DOMAIN}/property/type/Villa`;
 
         fetch(URL)
     .then(response=>response.json())

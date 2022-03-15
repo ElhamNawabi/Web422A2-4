@@ -15,7 +15,7 @@ function BeachHouse(){
     }]);
 
     useEffect(() => {
-        const URL = "http://localhost:8080/property/type/Beach-house";
+        const URL = `${process.env.REACT_APP_BACK_END_API_DOMAIN}/property/type/Beach-house`;
 
         fetch(URL)
     .then(response=>response.json())

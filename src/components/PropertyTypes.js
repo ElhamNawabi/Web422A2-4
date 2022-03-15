@@ -21,7 +21,7 @@ function PropertyTypes() {
       return null
   }}
   useEffect(() => {
-    const URL = 'http://localhost:8080/property/type'
+    const URL = `${process.env.REACT_APP_BACK_END_API_DOMAIN}/property/type`;
 
     fetch(URL)
     .then(response=>response.json())

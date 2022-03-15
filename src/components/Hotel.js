@@ -14,7 +14,7 @@ function Hotel(){
     }]);
 
     useEffect(() => {
-        const URL = "http://localhost:8080/property/type/Hotel";
+        const URL = `${process.env.REACT_APP_BACK_END_API_DOMAIN}/property/type/Hotel`;
 
         fetch(URL)
     .then(response=>response.json())

@@ -15,7 +15,7 @@ function ResortList() {
 }]);
 
 useEffect(() => {
-    const URL = "http://localhost:8080/property";
+    const URL = `${process.env.REACT_APP_BACK_END_API_DOMAIN}/property`;
 
     fetch(URL)
 .then(response=>response.json())
